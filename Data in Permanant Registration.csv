@@ -1,0 +1,1650 @@
+Test Case ID,Test Case Name,Test Case Description,Test Design Step,Test Design Description,Expected Result
+PR_001,TC01_Verify options in Patient Category dropdown,Verify options in Patient Category dropdown,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+PR_002,TC02_Verify Title dropdown in permanent registration page,Verify Title dropdown in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+PR_003,TC03_Verify First Name accepts valid input in permanent registration page,Verify First Name accepts valid input in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+PR_004,TC04_Verify First Name doesn't accepts valid input in permanent registration page,Verify First Name doesn't accepts invalid input in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+PR_005,TC05_Verify last Name accepts valid input in permanent registration page,Verify last Name accepts valid input in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+PR_006,TC06_Verify middle Name accepts valid input in permanent registration page,Verify middle Name accepts valid input in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+PR_007,TC07_Verify Age only accepts numbers in permanent registration page,Verify Age only accepts numbers in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+PR_08,TC08_Check calendar popup for DOB field in permanent registration page,Check calendar popup for DOB field in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+PR_09,TC09_Validate Gender dropdown options in permanent registration page,Validate Gender dropdown options in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",All options should be selectable
+PR_010,TC10_Validate Marital Status options in permanent registration page,Validate Marital Status options in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",All options should be selectable
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",All options should be selectable
+PR_011,TC11_Validate Primary Language dropdown in permanent registration page,Validate Primary Language dropdown in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+PR_012,TC12_Verify Relation dropdown works in permanent registration page,Verify Relation dropdown works in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+PR_013,TC13_Verify Patient Identifier dropdown in permanent registration page,Verify Patient Identifier dropdown in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+PR_014,TC14_Verify PAN/Voter ID text field validation in permanent registration page,Verify PAN/Voter ID text field validation in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+PR_015,TC15_Verify Mother's Maiden Name accepts valid input in permanent registration page,Verify Mother's Maiden Name accepts valid input in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+PR_016,TC16_Verify Nationality dropdown in permanent registration page,Verify Nationality dropdown in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+PR_017,TC17_Verify VIP dropdown in permanent registration page,Verify VIP dropdown in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+PR_018,TC18_Verify Education dropdown in permanent registration page,Verify Education dropdown in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+PR_019,TC19_Verify Occupation dropdown in permanent registration page,Verify Occupation dropdown in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+PR_020,TC20_Verify Blood Group dropdown in permanent registration page,Verify Blood Group dropdown in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+PR_021,TC21_Verify Citizenship dropdown in permanent registration page,Verify Citizenship dropdown in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+,,,step 27,"select Citizenship dropdown    (note: Options: Indian, American, etc.)",user should be able to see and select options
+PR_022,TC22_Verify Senior Citizen Proof dropdown in permanent registration page,Verify Senior Citizen Proof dropdown in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+,,,step 27,"select Citizenship dropdown    (note: Options: Indian, American, etc.)",user should be able to see and select options
+,,,step 28,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+PR_023,TC23_Verify Address1 accepts text input in permanent registration page,Verify Address1 accepts text input in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+,,,step 27,"select Citizenship dropdown    (note: Options: Indian, American, etc.)",user should be able to see and select options
+,,,step 28,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 29,"Enter alphanumeric text   (note: Example: ""123 Main Street"")",textbox should accept the values
+PR_024,TC24_Verify Address2 accepts text input in permanent registration page,Verify Address2 accepts text input in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+,,,step 27,"select Citizenship dropdown    (note: Options: Indian, American, etc.)",user should be able to see and select options
+,,,step 28,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 29,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 30,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+PR_025,TC25_Verify phone field text box in permanent registration page,Verify phone field text box in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+,,,step 27,"select Citizenship dropdown    (note: Options: Indian, American, etc.)",user should be able to see and select options
+,,,step 28,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 29,"Enter alphanumeric text   (note: Example: ""123 Main Street"")",textbox should accept the values
+,,,step 30,"Enter alphanumeric text    (note: Should restrict to valid length (e.g., 10 digits) Should reject input if invalid input like - ""sbjaj@#@"" Example: ""123 Main Street"")",textbox should accept the values
+,,,step 31,"Enter numerical value   (note: Example: ""8929838922""ù)",textbox should accept the values
+PR_026,TC26_Verify email field - text box in permanent registration page,Verify email field - text box in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+,,,step 27,"select Citizenship dropdown    (note: Options: Indian, American, etc.)",user should be able to see and select options
+,,,step 28,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 29,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 30,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 31,"Enter alphanumeric text    (note: Should restrict to valid length (e.g., 10 digits) Should reject input if invalid input like - ""sbjaj@#@"" Example: ""123 Main Street"")",textbox should accept the values
+,,,step 32,"Enter numerical value   (note: Example: ""8929838922""ù)",textbox should accept the values
+,,,step 33,"enter valid email    (note: invalid: ""abc.com"" valid: ""abc@gmail.com"")",Only valid format should be accepted
+PR_027,TC27_Verify Pin/Zip code format in permanent registration page,Verify Pin/Zip code format in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+,,,step 27,"select Citizenship dropdown    (note: Options: Indian, American, etc.)",user should be able to see and select options
+,,,step 28,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 29,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 30,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 31,"Enter alphanumeric text    (note: Should restrict to valid length (e.g., 10 digits) Should reject input if invalid input like - ""sbjaj@#@"" Example: ""123 Main Street"")",textbox should accept the values
+,,,step 32,"Enter numerical value   (note: Example: ""8929838922""ù)",textbox should accept the values
+,,,step 33,"enter valid email    (note: invalid: ""abc.com"" valid: ""abc@gmail.com"")",Only valid format should be accepted
+,,,step 34,enter valid numeric-only input    (note: ex: 500084),textbox should accept the values
+PR_028,TC28_Validate country dropdown in permanent registration page,Validate country dropdown in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+,,,step 27,"select Citizenship dropdown    (note: Options: Indian, American, etc.)",user should be able to see and select options
+,,,step 28,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 29,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 30,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 31,"Enter alphanumeric text    (note: Should restrict to valid length (e.g., 10 digits) Should reject input if invalid input like - ""sbjaj@#@"" Example: ""123 Main Street"")",textbox should accept the values
+,,,step 32,"Enter numerical value   (note: Example: ""8929838922""ù)",textbox should accept the values
+,,,step 33,"enter valid email    (note: invalid: ""abc.com"" valid: ""abc@gmail.com"")",Only valid format should be accepted
+,,,step 34,enter valid numeric-only input    (note: ex: 500084),textbox should accept the values
+,,,step 35,"select Country dropdown    (note: Options: India, America)",user should be able to see and select options
+PR_029,TC29_Verify a valid photo can be uploaded in permanent registration page,Verify a valid photo can be uploaded in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+,,,step 27,"select Citizenship dropdown    (note: Options: Indian, American, etc.)",user should be able to see and select options
+,,,step 28,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 29,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 30,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 31,"Enter alphanumeric text    (note: Should restrict to valid length (e.g., 10 digits) Should reject input if invalid input like - ""sbjaj@#@"" Example: ""123 Main Street"")",textbox should accept the values
+,,,step 32,"Enter numerical value   (note: Example: ""8929838922""ù)",textbox should accept the values
+,,,step 33,"enter valid email    (note: invalid: ""abc.com"" valid: ""abc@gmail.com"")",Only valid format should be accepted
+,,,step 34,enter valid numeric-only input    (note: ex: 500084),textbox should accept the values
+,,,step 35,"select Country dropdown    (note: Options: India, America)",user should be able to see and select options
+,,,step 36,"Click ""Choose File"" button",Image should upload and preview should display
+PR_030,TC30_Click on Save button with filled required fields in permanent registration page,Click on Save button with filled required fields in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+,,,step 27,"select Citizenship dropdown    (note: Options: Indian, American, etc.)",user should be able to see and select options
+,,,step 28,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 29,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 30,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 31,"Enter alphanumeric text    (note: Should restrict to valid length (e.g., 10 digits) Should reject input if invalid input like - ""sbjaj@#@"" Example: ""123 Main Street"")",textbox should accept the values
+,,,step 32,"Enter numerical value   (note: Example: ""8929838922""ù)",textbox should accept the values
+,,,step 33,"enter valid email    (note: invalid: ""abc.com"" valid: ""abc@gmail.com"")",Only valid format should be accepted
+,,,step 34,enter valid numeric-only input    (note: ex: 500084),textbox should accept the values
+,,,step 35,"select Country dropdown    (note: Options: India, America)",user should be able to see and select options
+,,,step 36,"Click ""Choose File"" button",Image should upload and preview should display
+,,,step 37,Fill all required fields with valid data,"Form should submit, redirect to same page"
+PR_031,TC31_Click on Save button with some missing mandatory required fields in permanent registration page,Click on Save button with some missing mandatory required fields in permanent registration page,step 1,open the browser,browser should be opened
+,,,step 2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),user should navigate to kosmik login page
+,,,step 3,Validate Kosmik login Page,User should see login section in the middle of the page
+,,,step 4,Enter valid Username and Password in login page text box,User should naviagte to Kosmik Home Page and see below fields in the left corner Registration ADT Feedback Help Line
+,,,step 5,Click on Registraion link in home page,User should Naviagte to Permanent Registration Page
+,,,step 6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,step 7,"select patient category dropdown (note: options: Pay Patient, Self, Staff, Insurance, Staff Dependent appear)",All values should be visible and selectable
+,,,step 8,"select Title dropdown   (note: options: Select, Mr., Ms., Others)",user should be able to see and select
+,,,step 9,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 10,"enter invalid values       (note: Invalid values like ""a"" or ""@123"")","Should reject, show error"
+,,,step 11,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 12,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 13,"enter the valid values note: valid values like ""32""",textbox should accept the values
+,,,step 14,Select any valid date,Date should get entered in the field
+,,,step 15,"select Gender dropdown     (note: Options: Male, Female, Others)",user should be able to see and select options
+,,,step 16,"select Marital Status dropdown     (note: Options: Single, Married)",user should be able to see and select options
+,,,step 17,"select Primary Language dropdown     (note: Should list languages like Telugu, Hindi, English, etc.)",user should be able to see and select options
+,,,step 18,"select Relation dropdown     (note: Options: Brother, Father, Wife, Mother)",user should be able to see and select options
+,,,step 19,"select Patient Identifier dropdown     (note: Options: Voter ID, PAN Card, Driving Licence, Aadhar Card, Others)",user should be able to see and select options
+,,,step 20,Enter alphanumeric input,Should only accept valid ID format
+,,,step 21,"enter the valid values   (note: valid values like ""avjnjdsk"")",textbox should accept the values
+,,,step 22,"select nationality dropdown       (note: options: Indian, Britain, USA)",user should be able to see and select options
+,,,step 23,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 24,"select Education dropdown     (note: Options: MCA, B.Tech, B.Sc, Others)",user should be able to see and select options
+,,,step 25,"select Occupation dropdown    (note: Options: Employee, Farmer, Teacher)",user should be able to see and select options
+,,,step 26,"select Blood Group dropdown    (note: Options: A+, B+, AB-, etc.)",user should be able to see and select options
+,,,step 27,"select Citizenship dropdown    (note: Options: Indian, American, etc.)",user should be able to see and select options
+,,,step 28,"select dropdown   (note: Options: Yes, No)",user should be able to see and select options
+,,,step 29,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 30,"Enter alphanumeric text   (note: Example: ""123 Main Street"")ù",textbox should accept the values
+,,,step 31,"Enter alphanumeric text    (note: Should restrict to valid length (e.g., 10 digits) Should reject input if invalid input like - ""sbjaj@#@"" Example: ""123 Main Street"")",textbox should accept the values
+,,,step 32,"Enter numerical value   (note: Example: ""8929838922""ù)",textbox should accept the values
+,,,step 33,"enter valid email    (note: invalid: ""abc.com"" valid: ""abc@gmail.com"")",Only valid format should be accepted
+,,,step 34,enter valid numeric-only input    (note: ex: 500084),textbox should accept the values
+,,,step 35,"select Country dropdown    (note: Options: India, America)",user should be able to see and select options
+,,,step 36,"Click ""Choose File"" button",Image should upload and preview should display
+,,,step 37,Fill all required fields with valid data,"Form should submit, redirect to same page"
+,,,step 38,Leave some mandatory fields empty,Error messages should display

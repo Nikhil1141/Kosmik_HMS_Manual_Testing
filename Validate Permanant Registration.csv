@@ -1,0 +1,84 @@
+Test Case ID,Test Case Name,Test Case Description,Test Case Design Steps,Test Case Design Description,Expected Result
+25061_1,TC01_Check the  Functionality of Login Page,Check  Functionality of Login Page,step1,Open the Browser,Browser should be opened
+,,,step2,Enter Kosmik HMS URL,User should  Naviagted to Kosmik HMS Login  page
+,,,Step3,Validate Kosmik Home Page,User should see login section in the  middle of the page
+25061_2,TC02_Check the Functionality of Username and Password in Textbox,Check login functionality with valid username and password in Textbox,step1,Open the Browser,Browser should be opened
+,,,step2,"Enter Kosmik HMS URL
+https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php",User should  Naviagte to Kosmik HMS Login page
+,,,Step3,Validate Kosmik Login  Page,User should see login section in the  middle of the page
+,,,step4,Enter valid Username and Password in Login page  Textbox,"User should navigate to Kosmik HMS  Home page and see below fields in the left corner Registration
+ADT
+Feedback
+Help Line  "
+25061_3,TC03_Check  the Functionality of Registration Link ,Check  the Functionality of Registration Link ,step1,Open the Browser,Browser should be opened
+,,,step2,"Enter Kosmik HMS  URL
+Enter Kosmik HMS URL
+https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php",User should  Naviagte to Kosmik HMS   Login page
+,,,Step3,Validate Kosmik login Page,User should see login section in the  middle of the page
+,,,step4,Enter valid Username and Password in Login page  Textbox,"User should Nvaigate to Kosmik HMS  Login Page and see below fields in the left corner Registration
+ADT
+Feedback
+Help Line  "
+,,,step5,Click on Registraion link,User should Naviagte to Permanent Registration page
+25061_4,TC04_Check the Functionality of Permanent Registration page , Check the Functionality of Permanent Registration page ,step1,Open the Browser,Browser should be opened
+,,,step2,"Enter Kosmik HMS  URL
+Enter Kosmik HMS URL
+https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php",User should  Naviagte to Kosmik HMS Login page
+,,,Step3,Validate Kosmik login Page,User should see login section in the  middle of the page
+,,,step4,Enter valid Username and Password in Login page  Textbox,"User should naviagte to Kosmik Home Page and see below fields in the left corner Registration
+ADT
+Feedback
+Help Line  "
+,,,step5,Click on Registraion link,User should Naviagte to Permanent Registration  Page
+,,,step6,Valiadte Permanent Registration Page,"User should see below fields Patient Category*            
+ Title,
+ First Name,        
+ Middle Name, 
+ Last Name ,
+ DOB ,
+ Age ,
+ Gender, 
+ Martial Status 
+ Religion ,
+ Primary Language, 
+ Relation ,
+ Mother's Name, 
+ Patient Identifier, 
+ PAN/Voter ID/Aadhar, 
+Nos ,
+ Nationality, 
+ VIP ,
+ Education, 
+ Occupation, 
+ Blood Group, 
+ Citizenship ,
+ Senior Citizen Proof, 
+Submitted,
+ Permanent Address-
+ Address1,
+ Phone,
+ Email ,
+ Country, 
+Current Address - 
+ Address2 ,
+ Pin or Zip,"
+,,,,,
+,,,,, 
+,,,,,
+,,,,,  
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,, 

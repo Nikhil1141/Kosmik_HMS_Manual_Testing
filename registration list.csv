@@ -1,0 +1,53 @@
+Test Case ID,Test Case Name,Test Case Description,Test Case Design Steps,Test Case Design Description,Expected Result
+25061_01,TC01_Check the Functionality of registration list page link,Check the Functionality of registration list page link,step1,Open the Browser,Browser should be opened
+,,,step2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),User should  Naviagte to Kosmik HMS Login page
+,,,Step3,Validate Kosmik login Page,User should see login section in the  middle of the page
+,,,Step4,Enter valid username and password in login page text box,"user should navitage to kosmik home page and see below fields in left corner
+
+registration
+ADT
+Feedback
+Helpline"
+,,,Step5,click on registration list link in home page,user should be able to see the existing patients data
+25061_02,TC02_Check the Functionality of edit link in registration list link,Check the Functionality of edit link in registration list link,step1,Open the Browser,Browser should be opened
+,,,step2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),User should  Naviagte to Kosmik HMS Login page
+,,,Step3,Validate Kosmik login Page,User should see login section in the  middle of the page
+,,,Step4,Enter valid username and password in login page text box,"user should navitage to kosmik home page and see below fields in left corner
+
+registration
+ADT
+Feedback
+Helpline"
+,,,Step5,click on registration list link in home page,user should be able to see the existing patients data
+,,,Step6,click on edit link in registration list page,user should be able to navigated to permanat registration page and see previous filled data and able to edit the data
+25061_03,TC03_Check the Functionality of update button in permanent registration link,Check the Functionality of update button in permanent registration link,step1,Open the Browser,Browser should be opened
+,,,step2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),User should  Naviagte to Kosmik HMS Login page
+,,,Step3,Validate Kosmik login Page,User should see login section in the  middle of the page
+,,,Step4,Enter valid username and password in login page text box,"user should navitage to kosmik home page and see below fields in left corner
+
+registration
+ADT
+Feedback
+Helpline"
+,,,Step5,click on registration list link in home page,user should be able to see the existing patients data
+,,,Step6,click on edit link in registration list page,user should be able to navigated to permanat registration page and see previous filled data and able to edit the data and see previous filled data and able to edit the data
+,,,Step7,click on update button in permanant registration page,"user should be able to update the data and redirect to total registration page
+
+note:
+there Is a defect that user is navigating to search registration  page instead of total registration page"
+25061_05,TC05_Check the Functionality of cancel link in registration list link,Check the Functionality of cancel link in registration list link,step1,Open the Browser,Browser should be opened
+,,,step2,enter kosmik url     (note: https://www.kosmiktechnologies.com/seleniumLiveProject/kosmik-hms/master.php),User should  Naviagte to Kosmik HMS Login page
+,,,Step3,Validate Kosmik login Page,User should see login section in the  middle of the page
+,,,Step4,Enter valid username and password in login page text box,"user should navitage to kosmik home page and see below fields in left corner
+
+registration
+ADT
+Feedback
+Helpline"
+,,,Step5,click on registration list link in home page,user should be able to see the existing patients data
+,,,Step6,click on edit link in registration list page,user should be able to navigated to permanat registration page and see previous filled data and able to edit the data and see previous filled data and able to edit the data
+,,,Step7,click on update button in permanant registration page,"user should be able to update the data and redirect to total registration page
+
+note:
+there Is a defect that user is navigating to search registration  page instead of total registration page"
+,,,Step8,click on cancel link in registration list page,user should be able to delete the patient data in total registration page and redirect to total registration page
